@@ -1,16 +1,20 @@
 [tool.poetry]
-name = "my_krml_12961912"
+name = "my-krml-12961912"
 version = "0.1.0"
-description = "test packages"
-authors = ["leo"]
-license = "MIT"
+description = ""
+authors = ["Leo  <shuohuaboy911@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.11.4"
+pandas = "2.2.2"
+scikit-learn = "1.5.1"
 
-[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.2.2"
+jupyterlab = "4.2.3"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
